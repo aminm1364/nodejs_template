@@ -2,8 +2,8 @@
     "jwtPrivateKey": "THIS_IS_ONLY_A_TEMPLATE_DO_NOT_USE_FOR_PRODUCTION",
     "app_port": "1364",
     "db_name": "myapp_db",
-    "debug-server": "127.0.0.1",
-    "debug-server-port": "27017",
+    "server": "127.0.0.1",
+    "server-port": "27017",
     "logging-server": "127.0.0.1",
     "logging-server-port": "27017"
 }

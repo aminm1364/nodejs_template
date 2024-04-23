@@ -1,7 +1,7 @@
 {
     "jwtPrivateKey": "my-app_jwtPrivateKey",
-    "debug-server": "my-app_debug_server",
-    "debug-server-port": "my-app_debug_server_port",
+    "server": "my-app_debug_server",
+    "server-port": "my-app_debug_server_port",
     "logging-server": "my-app_logging_server",
     "logging-server-port": "my-app_logging_server_port"
 }
