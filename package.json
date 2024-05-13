@@ -6,7 +6,9 @@
   "scripts": {
     "init": "npm install",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "start-test": "cross-env NODE_ENV=test nodemon index.js",
+    "start-dev": "cross-env NODE_ENV=development nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -29,6 +31,7 @@
     "winston-mongodb": "^5.1.1"
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "jest": "^29.7.0",
     "supertest": "^6.3.4"
   }
