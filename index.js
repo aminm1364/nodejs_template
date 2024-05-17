@@ -7,8 +7,8 @@ const app = express();
 var pug = require("pug");
 
 require("./startup/logging")();
-require("./startup/routes")(app);
 require("./startup/middlewares")(app, express);
+require("./startup/routes")(app);
 require("./startup/db")(config);
 require("./startup/config")(config, logger);
 require("./startup/validation")();
